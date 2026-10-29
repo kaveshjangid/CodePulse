@@ -1,1 +1,10 @@
-node_modules/\ndist/\n.env\nserver/data/*.tmp\n
+node_modules/
+client/node_modules/
+server/node_modules/
+dist/
+client/dist/
+server/dist/
+.env
+.env.*
+!.env.example
+server/data/*.tmp
